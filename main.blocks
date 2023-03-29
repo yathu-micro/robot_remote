@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="9!yG_3mS7SWf4#@wJD)t" x="0" y="0"><statement name="HANDLER"><block type="device_while" id="nC)7Xdg^Uvk$1inM;Bd-"><value name="COND"><shadow type="logic_boolean" id="y913;A6jy}Wh94YO):xA"><field name="BOOL">TRUE</field></shadow></value><statement name="DO"><block type="controls_if" id="AB))k?D)$$wZG`B}69~$"><mutation elseif="4" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="Z7jo$A{RRMo8+z_jk.3e"><field name="gesture">Gesture.LogoUp</field></block></value><statement name="DO0"><block type="radio_datagram_send" id="KEzr`JA6%FY,XRe@WSc("><value name="value"><shadow type="math_number" id="h~)R.cdGCR$bU8P~H)gz"><field name="NUM">1</field></shadow></value><next><block type="device_show_leds" id="@?109FcJE9d+~ex?b;)7"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field></block></next></block></statement><value name="IF1"><block type="deviceisgesture" id="?Ba5*pY6@Dv(MGjw:Uv]"><field name="gesture">Gesture.LogoDown</field></block></value><statement name="DO1"><block type="radio_datagram_send" id="wWxWiN%j5CS@-HW9|lPl"><value name="value"><shadow type="math_number" id=".YROw(5C(sH0d4wL6s^Z"><field name="NUM">2</field></shadow></value><next><block type="device_show_leds" id="n@uX1m9]r5*k8h58Gs+h"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field></block></next></block></statement><value name="IF2"><block type="deviceisgesture" id="!TcAbodr^?)S7-AdI]S0"><field name="gesture">Gesture.Shake</field></block></value><statement name="DO2"><block type="radio_datagram_send" id="FJM5wGd]uI+NGw.tQ!wY"><value name="value"><shadow type="math_number" id="5]HtV9*i{ZKP4iFoH9V^"><field name="NUM">3</field></shadow></value><next><block type="device_show_leds" id="nWRwYyUB,7qL9h;dWE{i"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></next></block></statement><value name="IF3"><block type="deviceisgesture" id="xiGtvs^C=WJ.aE1)Ocs|"><field name="gesture">Gesture.TiltRight</field></block></value><statement name="DO3"><block type="radio_datagram_send" id="Qy_6HSVR(Q1h3~Y~^(Ge"><value name="value"><shadow type="math_number" id="Ou~g@o~C)2nH=t}#{18]"><field name="NUM">4</field></shadow></value><next><block type="device_show_leds" id="~gpdewXxPS^WRXBx2$eR"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        # # # # # 
+        . . . # . 
+        . . # . .
+        `</field></block></next></block></statement><value name="IF4"><block type="deviceisgesture" id="QL~Fqrb/OaRiAbWQ8Zk("><field name="gesture">Gesture.TiltLeft</field></block></value><statement name="DO4"><block type="radio_datagram_send" id="EPYTcXs~wS9]Pd$WScy,"><value name="value"><shadow type="math_number" id="FIJX@8n_wLqvW@,CKkSy"><field name="NUM">5</field></shadow></value><next><block type="device_show_leds" id="x1Zq-86^O*DLq=aU0f0V"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field></block></next></block></statement><statement name="ELSE"><block type="radio_datagram_send" id="%fwg[xU8COY,tggI^/h7"><value name="value"><shadow type="math_number" id=";{~a6ZTqIp*avwf,7EUO"><field name="NUM">3</field></shadow></value><next><block type="device_show_leds" id="v?x-X`0@[xNnLsYhb;-d"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></next></block></statement></block></statement></block></statement></block><block type="pxt-on-start" id="L8|aAi=Fq;jKGsr)TKhp" x="1063" y="48"><statement name="HANDLER"><block type="radio_set_group" id="^xRcSH4#|B?kr|iZZwr+"><value name="ID"><shadow type="math_number_minmax" id="/FA7ZZ#A)pkdA7Nk?Ru^"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">154</field></shadow></value></block></statement></block></xml>

@@ -1,4 +1,4 @@
-radio.setGroup(154)
+radio.setGroup(1)
 basic.forever(function () {
     while (true) {
         if (input.isGesture(Gesture.LogoUp)) {
